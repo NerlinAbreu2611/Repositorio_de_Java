@@ -20,6 +20,16 @@ public class GitYJava {
         
         dato.n_divisibles(100);
         
+        System.out.println("Hare otra cosa");
+        
+        NumerosPrimos p = new NumerosPrimos();
+        System.out.println("Los numeros primos del 1 al 10 son:");
+        for (int i = 1; i <= 10; i++) {
+            if(p.primosOno(i)){
+                System.out.print(i + " ");
+            }
+        }
+        
     }
     
 }
