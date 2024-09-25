@@ -29,7 +29,12 @@ public class GitYJava {
                 System.out.print(i + " ");
             }
         }
-        
+       
+    }
+    
+    
+    public static String buenas_noches(String nombre){
+        return "buenas noches " + nombre;
     }
     
 }
